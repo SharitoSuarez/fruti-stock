@@ -1,0 +1,19 @@
+:root{--verde:#12332f;--lima:#b7d84b;--naranja:#f28c28;--fondo:#f4f7f2;--texto:#1d2b29}
+body{background:var(--fondo);color:var(--texto);font-family:"Trebuchet MS","Segoe UI",sans-serif}
+.encabezado{background:var(--verde);color:#fff;display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between;padding:.8rem 1.5rem}
+.marca{display:flex;align-items:center;gap:.6rem;font-size:1.5rem;font-weight:700}
+.datos-usuario{display:flex;flex-direction:column;text-align:right;line-height:1.2}
+.datos-usuario span{color:var(--lima);font-size:.9rem}
+.reloj{font-size:.95rem;opacity:.9}
+.menu{background:var(--lima)}
+.menu .nav-link{color:var(--verde)!important;font-weight:600}
+.menu .nav-link:hover,.menu .nav-link.activo{background:rgba(18,51,47,.12);border-radius:6px}
+.btn-fruti{background:var(--naranja);border:0;color:#fff;font-weight:600}
+.btn-fruti:hover{background:#d97a1c;color:#fff}
+.tarjeta{background:#fff;border-radius:10px;padding:1.5rem;box-shadow:0 1px 4px rgba(0,0,0,.12)}
+table thead{background:var(--verde);color:#fff}
+.foto{width:100%;height:170px;object-fit:cover;border-radius:10px 10px 0 0}
+.login-caja{max-width:420px;margin:6vh auto}
+.login-caja h1{color:var(--verde);font-size:2rem}
+.despedida{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;background:var(--verde);color:#fff;text-align:center;gap:1rem}
+:focus-visible{outline:3px solid var(--naranja);outline-offset:2px}

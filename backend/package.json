@@ -1,0 +1,7 @@
+{
+  "name": "fruti-backend",
+  "version": "1.0.0",
+  "description": "API REST con JSON Server para FrutiStock",
+  "scripts": { "start": "json-server --watch db.json --port 3000" },
+  "dependencies": { "json-server": "0.17.4" }
+}

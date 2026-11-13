@@ -1,0 +1,13 @@
+{
+  "usuarios": [
+    { "id": 1, "nombre": "Administrador", "email": "admin@fruti.co", "usuario": "admin", "clave": "admin123", "rol": "admin" },
+    { "id": 2, "nombre": "Usuario Global", "email": "usuario@fruti.co", "usuario": "usuario", "clave": "usuario123", "rol": "usuario" }
+  ],
+  "articulos": [
+    { "id": 1, "descripcion": "Naranjas", "precio": 15500, "stock": 100 },
+    { "id": 2, "descripcion": "Peras", "precio": 2000, "stock": 25 },
+    { "id": 3, "descripcion": "Manzanas", "precio": 5000, "stock": 30 },
+    { "id": 4, "descripcion": "Zapote", "precio": 12000, "stock": 100 },
+    { "id": 5, "descripcion": "Banano", "precio": 1250, "stock": 150 }
+  ]
+}
